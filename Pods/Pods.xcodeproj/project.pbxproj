@@ -1,0 +1,519 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		025C6074C0FABA9A9215FB69 /* MDCViewState.h in Headers */ = {isa = PBXBuildFile; fileRef = FBE741765A363D0288F0F515 /* MDCViewState.h */; };
+		189BF36515E93D05D7F238C0 /* MDCSwipeToChooseViewOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = C81C24F962FC6D7695C3AC49 /* MDCSwipeToChooseViewOptions.m */; };
+		3918A6808A1037F1A53EDC50 /* MDCSwipeToChooseView.h in Headers */ = {isa = PBXBuildFile; fileRef = 50D4ACB706CA78521E45BFF9 /* MDCSwipeToChooseView.h */; };
+		3C6A064CD2AB65D0921EBF12 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D96F86D6E82AF329B636E94 /* Foundation.framework */; };
+		4974793E752B6EF6A1799F20 /* Pods-MDCSwipeToChoose-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 0F1C443C6B013577DB98D257 /* Pods-MDCSwipeToChoose-dummy.m */; };
+		4E6421562F062EF2809F314E /* MDCGeometry.m in Sources */ = {isa = PBXBuildFile; fileRef = F0591A020FB8793892E37F3F /* MDCGeometry.m */; };
+		54E95FE396E72D4DFD533C15 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1D96F86D6E82AF329B636E94 /* Foundation.framework */; };
+		558621BAD7843CBE7F67A713 /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 21FE7BBBF7FB60276EC98E39 /* UIKit.framework */; };
+		5B32695A9D3E5F020A091C07 /* MDCPanState.h in Headers */ = {isa = PBXBuildFile; fileRef = 74A48408C493867BFADF38FF /* MDCPanState.h */; };
+		5DA738C77EE454B9697A0B58 /* MDCGeometry.h in Headers */ = {isa = PBXBuildFile; fileRef = 6973DAAB86339B73D4D8A171 /* MDCGeometry.h */; };
+		63BDCD597599EDDDBD381B09 /* MDCPanState.m in Sources */ = {isa = PBXBuildFile; fileRef = 10E9618F4ED89A2CEEB5781A /* MDCPanState.m */; };
+		685101E10C608C357752238C /* MDCSwipeToChooseViewOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = 775C07459CD2EDC1066CA914 /* MDCSwipeToChooseViewOptions.h */; };
+		6A6647CE8414414307131B3B /* Pods-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CE7EE2F0CF975D2043A578A5 /* Pods-dummy.m */; };
+		6F11433EC70BA9BD51513DCB /* UIView+MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = CF0312AA266AF5D86C7C47ED /* UIView+MDCSwipeToChoose.h */; };
+		7239CE2A39DB775E4A2F4562 /* MDCSwipeOptions.h in Headers */ = {isa = PBXBuildFile; fileRef = AFC3ED01A2C8245E768D624D /* MDCSwipeOptions.h */; };
+		73B11F3E0E61836D48657463 /* MDCSwipeToChoose.h in Headers */ = {isa = PBXBuildFile; fileRef = ADF944763319A2BD76EB4258 /* MDCSwipeToChoose.h */; };
+		78967D1E566702B3E7F7D5C6 /* MDCSwipeOptions.m in Sources */ = {isa = PBXBuildFile; fileRef = 5A9FC99FC6A32E8C90B20E48 /* MDCSwipeOptions.m */; };
+		98E8917C959FCDF39B1DBEC4 /* MDCViewState.m in Sources */ = {isa = PBXBuildFile; fileRef = 86B66451F7601B5CE1328BE0 /* MDCViewState.m */; };
+		A017F11BFB1D9F6295C268E0 /* UIColor+MDCRGB8Bit.m in Sources */ = {isa = PBXBuildFile; fileRef = 80C15FCB5892CD3C516B41AC /* UIColor+MDCRGB8Bit.m */; };
+		C48B2C99F0F5AA9B40D472ED /* UIView+MDCBorderedLabel.m in Sources */ = {isa = PBXBuildFile; fileRef = 3D0A9F8107427632F7B7B33D /* UIView+MDCBorderedLabel.m */; };
+		C4E9AF4B9724CD0844497BC5 /* UIView+MDCSwipeToChoose.m in Sources */ = {isa = PBXBuildFile; fileRef = 0E8CF7CF5E629B442694D8B5 /* UIView+MDCSwipeToChoose.m */; };
+		C72127B97479910E6C235A88 /* MDCSwipeDirection.h in Headers */ = {isa = PBXBuildFile; fileRef = D8C67AB305EE9119CBCED044 /* MDCSwipeDirection.h */; };
+		C81C62844C9B9C0E0B4810CF /* MDCSwipeResult.m in Sources */ = {isa = PBXBuildFile; fileRef = 712A6023F55E96890F5C8481 /* MDCSwipeResult.m */; };
+		CD034756B207F9F03BB31258 /* UIView+MDCBorderedLabel.h in Headers */ = {isa = PBXBuildFile; fileRef = FD12E7C0D16EC391FF9E9F4C /* UIView+MDCBorderedLabel.h */; };
+		DAE7C8C07E5BED0B92ED0413 /* MDCSwipeToChooseDelegate.h in Headers */ = {isa = PBXBuildFile; fileRef = 8840994DEE3C0799C35B3797 /* MDCSwipeToChooseDelegate.h */; };
+		E1DE5A3502439A5EA34DE844 /* UIColor+MDCRGB8Bit.h in Headers */ = {isa = PBXBuildFile; fileRef = 0F6424D94E279112C80D47A3 /* UIColor+MDCRGB8Bit.h */; };
+		EF9594697176FC3CB0C09140 /* MDCSwipeToChooseView.m in Sources */ = {isa = PBXBuildFile; fileRef = 02B48146784309750B9A65F2 /* MDCSwipeToChooseView.m */; };
+		FACF368DF249240402D0BA62 /* MDCSwipeResult.h in Headers */ = {isa = PBXBuildFile; fileRef = 442430F08C7A5A28D2EC3A44 /* MDCSwipeResult.h */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		0A41660CC91B75B42E5417A2 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = 7665BC2E194AB2C5C254112B /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 438715F05A264BEF108B1D69;
+			remoteInfo = "Pods-MDCSwipeToChoose";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02B48146784309750B9A65F2 /* MDCSwipeToChooseView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseView.m; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.m; sourceTree = "<group>"; };
+		096FC5DCCC04F895E804491D /* Pods-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-acknowledgements.plist"; sourceTree = "<group>"; };
+		0E8CF7CF5E629B442694D8B5 /* UIView+MDCSwipeToChoose.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCSwipeToChoose.m"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.m"; sourceTree = "<group>"; };
+		0F1C443C6B013577DB98D257 /* Pods-MDCSwipeToChoose-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-MDCSwipeToChoose-dummy.m"; sourceTree = "<group>"; };
+		0F6424D94E279112C80D47A3 /* UIColor+MDCRGB8Bit.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIColor+MDCRGB8Bit.h"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.h"; sourceTree = "<group>"; };
+		10E9618F4ED89A2CEEB5781A /* MDCPanState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCPanState.m; path = MDCSwipeToChoose/Public/State/MDCPanState.m; sourceTree = "<group>"; };
+		1D3683EF9B5551C78A092E42 /* Pods.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.release.xcconfig; sourceTree = "<group>"; };
+		1D96F86D6E82AF329B636E94 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		21FE7BBBF7FB60276EC98E39 /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS7.1.sdk/System/Library/Frameworks/UIKit.framework; sourceTree = DEVELOPER_DIR; };
+		3D0A9F8107427632F7B7B33D /* UIView+MDCBorderedLabel.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIView+MDCBorderedLabel.m"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.m"; sourceTree = "<group>"; };
+		442430F08C7A5A28D2EC3A44 /* MDCSwipeResult.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeResult.h; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.h; sourceTree = "<group>"; };
+		4CB6E2039CFDC1310C8EAB72 /* Pods-MDCSwipeToChoose-Private.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDCSwipeToChoose-Private.xcconfig"; sourceTree = "<group>"; };
+		50D4ACB706CA78521E45BFF9 /* MDCSwipeToChooseView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseView.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.h; sourceTree = "<group>"; };
+		5A9FC99FC6A32E8C90B20E48 /* MDCSwipeOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.m; sourceTree = "<group>"; };
+		5AEC76ED17FE71B145BF6A75 /* Pods-MDCSwipeToChoose.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-MDCSwipeToChoose.xcconfig"; sourceTree = "<group>"; };
+		6973DAAB86339B73D4D8A171 /* MDCGeometry.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCGeometry.h; path = MDCSwipeToChoose/Internal/MDCGeometry.h; sourceTree = "<group>"; };
+		6A3155F83F71B53D5FD5D608 /* libPods.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = libPods.a; sourceTree = BUILT_PRODUCTS_DIR; };
+		712A6023F55E96890F5C8481 /* MDCSwipeResult.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeResult.m; path = MDCSwipeToChoose/Public/State/MDCSwipeResult.m; sourceTree = "<group>"; };
+		73B58E181518ED90D8142EBD /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = Pods.debug.xcconfig; sourceTree = "<group>"; };
+		74A48408C493867BFADF38FF /* MDCPanState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCPanState.h; path = MDCSwipeToChoose/Public/State/MDCPanState.h; sourceTree = "<group>"; };
+		775C07459CD2EDC1066CA914 /* MDCSwipeToChooseViewOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseViewOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.h; sourceTree = "<group>"; };
+		796D8A8AED90BE3DD6D0EF61 /* Pods-environment.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-environment.h"; sourceTree = "<group>"; };
+		80C15FCB5892CD3C516B41AC /* UIColor+MDCRGB8Bit.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = "UIColor+MDCRGB8Bit.m"; path = "MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.m"; sourceTree = "<group>"; };
+		86B66451F7601B5CE1328BE0 /* MDCViewState.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCViewState.m; path = MDCSwipeToChoose/Internal/State/MDCViewState.m; sourceTree = "<group>"; };
+		8840994DEE3C0799C35B3797 /* MDCSwipeToChooseDelegate.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChooseDelegate.h; path = MDCSwipeToChoose/Public/Views/MDCSwipeToChooseDelegate.h; sourceTree = "<group>"; };
+		9E4294D79EE1614BB09EFA34 /* libPods-MDCSwipeToChoose.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libPods-MDCSwipeToChoose.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		9EBFAEE857F75954A8463FF9 /* Pods-MDCSwipeToChoose-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-MDCSwipeToChoose-prefix.pch"; sourceTree = "<group>"; };
+		A93E895CF71600E9685BB62F /* Pods-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-acknowledgements.markdown"; sourceTree = "<group>"; };
+		ADF944763319A2BD76EB4258 /* MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeToChoose.h; path = MDCSwipeToChoose/Public/MDCSwipeToChoose.h; sourceTree = "<group>"; };
+		AFC3ED01A2C8245E768D624D /* MDCSwipeOptions.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeOptions.h; path = MDCSwipeToChoose/Public/Options/MDCSwipeOptions.h; sourceTree = "<group>"; };
+		C81C24F962FC6D7695C3AC49 /* MDCSwipeToChooseViewOptions.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCSwipeToChooseViewOptions.m; path = MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.m; sourceTree = "<group>"; };
+		CE7EE2F0CF975D2043A578A5 /* Pods-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-dummy.m"; sourceTree = "<group>"; };
+		CF0312AA266AF5D86C7C47ED /* UIView+MDCSwipeToChoose.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCSwipeToChoose.h"; path = "MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.h"; sourceTree = "<group>"; };
+		D8C67AB305EE9119CBCED044 /* MDCSwipeDirection.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCSwipeDirection.h; path = MDCSwipeToChoose/Public/State/MDCSwipeDirection.h; sourceTree = "<group>"; };
+		F0591A020FB8793892E37F3F /* MDCGeometry.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; name = MDCGeometry.m; path = MDCSwipeToChoose/Internal/MDCGeometry.m; sourceTree = "<group>"; };
+		F87E618DBEAC086ED5F774F8 /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		F8D44F584F4ABD7955D32F55 /* Pods-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-resources.sh"; sourceTree = "<group>"; };
+		FBE741765A363D0288F0F515 /* MDCViewState.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = MDCViewState.h; path = MDCSwipeToChoose/Internal/State/MDCViewState.h; sourceTree = "<group>"; };
+		FD12E7C0D16EC391FF9E9F4C /* UIView+MDCBorderedLabel.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; name = "UIView+MDCBorderedLabel.h"; path = "MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.h"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		9016D3978AC666C889B4EC6E /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				54E95FE396E72D4DFD533C15 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		AE73A37C1B4D6054E7992BEA /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3C6A064CD2AB65D0921EBF12 /* Foundation.framework in Frameworks */,
+				558621BAD7843CBE7F67A713 /* UIKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1B73884C69EF3624E52D87A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				D9097DB7F81627130C7960BB /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		3CC96E2E316ECC3CFBF4D162 = {
+			isa = PBXGroup;
+			children = (
+				F87E618DBEAC086ED5F774F8 /* Podfile */,
+				1B73884C69EF3624E52D87A2 /* Frameworks */,
+				C8DB9ABC91F09C1D69D2F6DA /* Pods */,
+				A3907C38A6B523944B33D855 /* Products */,
+				9F443F03357FAC3C771D84A5 /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		460325A25C2A81EF136B6524 /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5AEC76ED17FE71B145BF6A75 /* Pods-MDCSwipeToChoose.xcconfig */,
+				4CB6E2039CFDC1310C8EAB72 /* Pods-MDCSwipeToChoose-Private.xcconfig */,
+				0F1C443C6B013577DB98D257 /* Pods-MDCSwipeToChoose-dummy.m */,
+				9EBFAEE857F75954A8463FF9 /* Pods-MDCSwipeToChoose-prefix.pch */,
+			);
+			name = "Support Files";
+			path = "../Target Support Files/Pods-MDCSwipeToChoose";
+			sourceTree = "<group>";
+		};
+		5BA46483F583D26ED6D36AA2 /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				A93E895CF71600E9685BB62F /* Pods-acknowledgements.markdown */,
+				096FC5DCCC04F895E804491D /* Pods-acknowledgements.plist */,
+				CE7EE2F0CF975D2043A578A5 /* Pods-dummy.m */,
+				796D8A8AED90BE3DD6D0EF61 /* Pods-environment.h */,
+				F8D44F584F4ABD7955D32F55 /* Pods-resources.sh */,
+				73B58E181518ED90D8142EBD /* Pods.debug.xcconfig */,
+				1D3683EF9B5551C78A092E42 /* Pods.release.xcconfig */,
+			);
+			name = Pods;
+			path = "Target Support Files/Pods";
+			sourceTree = "<group>";
+		};
+		6C60805215831DE85353E7BC /* MDCSwipeToChoose */ = {
+			isa = PBXGroup;
+			children = (
+				6973DAAB86339B73D4D8A171 /* MDCGeometry.h */,
+				F0591A020FB8793892E37F3F /* MDCGeometry.m */,
+				74A48408C493867BFADF38FF /* MDCPanState.h */,
+				10E9618F4ED89A2CEEB5781A /* MDCPanState.m */,
+				D8C67AB305EE9119CBCED044 /* MDCSwipeDirection.h */,
+				AFC3ED01A2C8245E768D624D /* MDCSwipeOptions.h */,
+				5A9FC99FC6A32E8C90B20E48 /* MDCSwipeOptions.m */,
+				442430F08C7A5A28D2EC3A44 /* MDCSwipeResult.h */,
+				712A6023F55E96890F5C8481 /* MDCSwipeResult.m */,
+				ADF944763319A2BD76EB4258 /* MDCSwipeToChoose.h */,
+				8840994DEE3C0799C35B3797 /* MDCSwipeToChooseDelegate.h */,
+				50D4ACB706CA78521E45BFF9 /* MDCSwipeToChooseView.h */,
+				02B48146784309750B9A65F2 /* MDCSwipeToChooseView.m */,
+				775C07459CD2EDC1066CA914 /* MDCSwipeToChooseViewOptions.h */,
+				C81C24F962FC6D7695C3AC49 /* MDCSwipeToChooseViewOptions.m */,
+				FBE741765A363D0288F0F515 /* MDCViewState.h */,
+				86B66451F7601B5CE1328BE0 /* MDCViewState.m */,
+				0F6424D94E279112C80D47A3 /* UIColor+MDCRGB8Bit.h */,
+				80C15FCB5892CD3C516B41AC /* UIColor+MDCRGB8Bit.m */,
+				FD12E7C0D16EC391FF9E9F4C /* UIView+MDCBorderedLabel.h */,
+				3D0A9F8107427632F7B7B33D /* UIView+MDCBorderedLabel.m */,
+				CF0312AA266AF5D86C7C47ED /* UIView+MDCSwipeToChoose.h */,
+				0E8CF7CF5E629B442694D8B5 /* UIView+MDCSwipeToChoose.m */,
+				460325A25C2A81EF136B6524 /* Support Files */,
+			);
+			path = MDCSwipeToChoose;
+			sourceTree = "<group>";
+		};
+		9F443F03357FAC3C771D84A5 /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				5BA46483F583D26ED6D36AA2 /* Pods */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		A3907C38A6B523944B33D855 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				6A3155F83F71B53D5FD5D608 /* libPods.a */,
+				9E4294D79EE1614BB09EFA34 /* libPods-MDCSwipeToChoose.a */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		C8DB9ABC91F09C1D69D2F6DA /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				6C60805215831DE85353E7BC /* MDCSwipeToChoose */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+		D9097DB7F81627130C7960BB /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				1D96F86D6E82AF329B636E94 /* Foundation.framework */,
+				21FE7BBBF7FB60276EC98E39 /* UIKit.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		73497C07E5E5CF220D99A889 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				5DA738C77EE454B9697A0B58 /* MDCGeometry.h in Headers */,
+				5B32695A9D3E5F020A091C07 /* MDCPanState.h in Headers */,
+				C72127B97479910E6C235A88 /* MDCSwipeDirection.h in Headers */,
+				7239CE2A39DB775E4A2F4562 /* MDCSwipeOptions.h in Headers */,
+				FACF368DF249240402D0BA62 /* MDCSwipeResult.h in Headers */,
+				73B11F3E0E61836D48657463 /* MDCSwipeToChoose.h in Headers */,
+				DAE7C8C07E5BED0B92ED0413 /* MDCSwipeToChooseDelegate.h in Headers */,
+				3918A6808A1037F1A53EDC50 /* MDCSwipeToChooseView.h in Headers */,
+				685101E10C608C357752238C /* MDCSwipeToChooseViewOptions.h in Headers */,
+				025C6074C0FABA9A9215FB69 /* MDCViewState.h in Headers */,
+				E1DE5A3502439A5EA34DE844 /* UIColor+MDCRGB8Bit.h in Headers */,
+				CD034756B207F9F03BB31258 /* UIView+MDCBorderedLabel.h in Headers */,
+				6F11433EC70BA9BD51513DCB /* UIView+MDCSwipeToChoose.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		438715F05A264BEF108B1D69 /* Pods-MDCSwipeToChoose */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 96519BB7761C832119076493 /* Build configuration list for PBXNativeTarget "Pods-MDCSwipeToChoose" */;
+			buildPhases = (
+				0D593CD39BD4835DFCDCCD75 /* Sources */,
+				AE73A37C1B4D6054E7992BEA /* Frameworks */,
+				73497C07E5E5CF220D99A889 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Pods-MDCSwipeToChoose";
+			productName = "Pods-MDCSwipeToChoose";
+			productReference = 9E4294D79EE1614BB09EFA34 /* libPods-MDCSwipeToChoose.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+		D375659C2EF48612ECA01DD5 /* Pods */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = C02CAF20103F0054EEE642E0 /* Build configuration list for PBXNativeTarget "Pods" */;
+			buildPhases = (
+				2C7F28DDB6F586FA1553B3DF /* Sources */,
+				9016D3978AC666C889B4EC6E /* Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				5706683EA0050875604770B4 /* PBXTargetDependency */,
+			);
+			name = Pods;
+			productName = Pods;
+			productReference = 6A3155F83F71B53D5FD5D608 /* libPods.a */;
+			productType = "com.apple.product-type.library.static";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		7665BC2E194AB2C5C254112B /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 0510;
+			};
+			buildConfigurationList = E7CE185D43A936A95AC40C44 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 3CC96E2E316ECC3CFBF4D162;
+			productRefGroup = A3907C38A6B523944B33D855 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				D375659C2EF48612ECA01DD5 /* Pods */,
+				438715F05A264BEF108B1D69 /* Pods-MDCSwipeToChoose */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		0D593CD39BD4835DFCDCCD75 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				4E6421562F062EF2809F314E /* MDCGeometry.m in Sources */,
+				63BDCD597599EDDDBD381B09 /* MDCPanState.m in Sources */,
+				78967D1E566702B3E7F7D5C6 /* MDCSwipeOptions.m in Sources */,
+				C81C62844C9B9C0E0B4810CF /* MDCSwipeResult.m in Sources */,
+				EF9594697176FC3CB0C09140 /* MDCSwipeToChooseView.m in Sources */,
+				189BF36515E93D05D7F238C0 /* MDCSwipeToChooseViewOptions.m in Sources */,
+				98E8917C959FCDF39B1DBEC4 /* MDCViewState.m in Sources */,
+				4974793E752B6EF6A1799F20 /* Pods-MDCSwipeToChoose-dummy.m in Sources */,
+				A017F11BFB1D9F6295C268E0 /* UIColor+MDCRGB8Bit.m in Sources */,
+				C48B2C99F0F5AA9B40D472ED /* UIView+MDCBorderedLabel.m in Sources */,
+				C4E9AF4B9724CD0844497BC5 /* UIView+MDCSwipeToChoose.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		2C7F28DDB6F586FA1553B3DF /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				6A6647CE8414414307131B3B /* Pods-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		5706683EA0050875604770B4 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = "Pods-MDCSwipeToChoose";
+			target = 438715F05A264BEF108B1D69 /* Pods-MDCSwipeToChoose */;
+			targetProxy = 0A41660CC91B75B42E5417A2 /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		071BD3572FBD4D4F290E3756 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		37B5866FC608FEEC1DBE2D9C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB6E2039CFDC1310C8EAB72 /* Pods-MDCSwipeToChoose-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		5977E30771C39AB6D7092E3A /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 73B58E181518ED90D8142EBD /* Pods.debug.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Debug;
+		};
+		DC6BAD2109404B125EA7A8FA /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 1D3683EF9B5551C78A092E42 /* Pods.release.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		EB2C34A0CFC146F559B01078 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 4CB6E2039CFDC1310C8EAB72 /* Pods-MDCSwipeToChoose-Private.xcconfig */;
+			buildSettings = {
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-prefix.pch";
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+			};
+			name = Release;
+		};
+		F497BAA54B60591D968FDAA4 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 8.3;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		96519BB7761C832119076493 /* Build configuration list for PBXNativeTarget "Pods-MDCSwipeToChoose" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				37B5866FC608FEEC1DBE2D9C /* Debug */,
+				EB2C34A0CFC146F559B01078 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		C02CAF20103F0054EEE642E0 /* Build configuration list for PBXNativeTarget "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				5977E30771C39AB6D7092E3A /* Debug */,
+				DC6BAD2109404B125EA7A8FA /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		E7CE185D43A936A95AC40C44 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				F497BAA54B60591D968FDAA4 /* Debug */,
+				071BD3572FBD4D4F290E3756 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 7665BC2E194AB2C5C254112B /* Project object */;
+}

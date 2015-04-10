@@ -1,0 +1,58 @@
+Pods/Headers/Private/MDCSwipeToChoose/MDCGeometry.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCPanState.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCSwipeDirection.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCSwipeOptions.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCSwipeResult.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCSwipeToChoose.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCSwipeToChooseDelegate.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCSwipeToChooseView.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCSwipeToChooseViewOptions.h
+Pods/Headers/Private/MDCSwipeToChoose/MDCViewState.h
+Pods/Headers/Private/MDCSwipeToChoose/UIColor+MDCRGB8Bit.h
+Pods/Headers/Private/MDCSwipeToChoose/UIView+MDCBorderedLabel.h
+Pods/Headers/Private/MDCSwipeToChoose/UIView+MDCSwipeToChoose.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCPanState.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCSwipeDirection.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCSwipeOptions.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCSwipeResult.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCSwipeToChoose.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCSwipeToChooseDelegate.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCSwipeToChooseView.h
+Pods/Headers/Public/MDCSwipeToChoose/MDCSwipeToChooseViewOptions.h
+Pods/Headers/Public/MDCSwipeToChoose/UIView+MDCSwipeToChoose.h
+Pods/MDCSwipeToChoose/LICENSE
+Pods/MDCSwipeToChoose/README.md
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/MDCGeometry.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/MDCGeometry.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/UIColor+MDCRGB8Bit.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/State/MDCViewState.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/State/MDCViewState.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Internal/Views/UIView+MDCBorderedLabel.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/MDCSwipeToChoose.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Options/MDCSwipeOptions.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Options/MDCSwipeOptions.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Options/MDCSwipeToChooseViewOptions.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/State/MDCPanState.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/State/MDCPanState.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/State/MDCSwipeDirection.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/State/MDCSwipeResult.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/State/MDCSwipeResult.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Views/MDCSwipeToChooseDelegate.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Views/MDCSwipeToChooseView.m
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.h
+Pods/MDCSwipeToChoose/MDCSwipeToChoose/Public/Views/UIView+MDCSwipeToChoose.m
+Pods/Target Support Files/Pods/Pods-acknowledgements.markdown
+Pods/Target Support Files/Pods/Pods-acknowledgements.plist
+Pods/Target Support Files/Pods/Pods-dummy.m
+Pods/Target Support Files/Pods/Pods-environment.h
+Pods/Target Support Files/Pods/Pods-resources.sh
+Pods/Target Support Files/Pods/Pods.debug.xcconfig
+Pods/Target Support Files/Pods/Pods.release.xcconfig
+Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-dummy.m
+Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-prefix.pch
+Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-Private.xcconfig
+Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose.xcconfig
