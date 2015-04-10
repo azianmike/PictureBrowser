@@ -15,6 +15,7 @@
 		C1671E561AD8367F00F9F67C /* Images.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = C1671E551AD8367F00F9F67C /* Images.xcassets */; };
 		C1671E591AD8367F00F9F67C /* LaunchScreen.xib in Resources */ = {isa = PBXBuildFile; fileRef = C1671E571AD8367F00F9F67C /* LaunchScreen.xib */; };
 		C1671E651AD8368000F9F67C /* PictureBrowserTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1671E641AD8368000F9F67C /* PictureBrowserTests.swift */; };
+		C1D13DC61AD8429100CD4953 /* Person.swift in Sources */ = {isa = PBXBuildFile; fileRef = C1D13DC51AD8429100CD4953 /* Person.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXContainerItemProxy section */
@@ -41,6 +42,8 @@
 		C1671E5E1AD8368000F9F67C /* PictureBrowserTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = PictureBrowserTests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		C1671E631AD8368000F9F67C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		C1671E641AD8368000F9F67C /* PictureBrowserTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PictureBrowserTests.swift; sourceTree = "<group>"; };
+		C1D13DC41AD8422B00CD4953 /* PictureBrowser-Bridging-Header.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "PictureBrowser-Bridging-Header.h"; sourceTree = "<group>"; };
+		C1D13DC51AD8429100CD4953 /* Person.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Person.swift; sourceTree = "<group>"; };
 		FBDC34A49A2F9C9EA3ADF438 /* Pods.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = Pods.debug.xcconfig; path = "Pods/Target Support Files/Pods/Pods.debug.xcconfig"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
@@ -97,10 +100,12 @@
 			children = (
 				C1671E4B1AD8367F00F9F67C /* AppDelegate.swift */,
 				C1671E501AD8367F00F9F67C /* ViewController.swift */,
+				C1D13DC51AD8429100CD4953 /* Person.swift */,
 				C1671E521AD8367F00F9F67C /* Main.storyboard */,
 				C1671E551AD8367F00F9F67C /* Images.xcassets */,
 				C1671E571AD8367F00F9F67C /* LaunchScreen.xib */,
 				C1671E4D1AD8367F00F9F67C /* PictureBrowser.xcdatamodeld */,
+				C1D13DC41AD8422B00CD4953 /* PictureBrowser-Bridging-Header.h */,
 				C1671E491AD8367F00F9F67C /* Supporting Files */,
 			);
 			path = PictureBrowser;
@@ -276,6 +281,7 @@
 			files = (
 				C1671E511AD8367F00F9F67C /* ViewController.swift in Sources */,
 				C1671E4C1AD8367F00F9F67C /* AppDelegate.swift in Sources */,
+				C1D13DC61AD8429100CD4953 /* Person.swift in Sources */,
 				C1671E4F1AD8367F00F9F67C /* PictureBrowser.xcdatamodeld in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
@@ -407,6 +413,7 @@
 				INFOPLIST_FILE = PictureBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PictureBrowser/PictureBrowser-Bridging-Header.h";
 			};
 			name = Debug;
 		};
@@ -418,6 +425,7 @@
 				INFOPLIST_FILE = PictureBrowser/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
 				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_OBJC_BRIDGING_HEADER = "PictureBrowser/PictureBrowser-Bridging-Header.h";
 			};
 			name = Release;
 		};
