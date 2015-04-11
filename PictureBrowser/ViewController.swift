@@ -18,6 +18,9 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
     
     override func viewDidLoad() {
         super.viewDidLoad()
+        let loadingNotification = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+        //loadingNotification.mode = MBProgressHUDModeIndeterminate
+        loadingNotification.labelText = "Loading Submissions"
         // Do any additional setup after loading the view, typically from a nib.
         //loadData()
         
@@ -36,6 +39,8 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
     
     func createNewImageView()
     {
+
+
         var options = MDCSwipeToChooseViewOptions()
         options.delegate = self
         options.likedText = "Like"
@@ -45,7 +50,7 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
             if state.thresholdRatio == 1 && state.direction == MDCSwipeDirection.Left {
                 println("Photo deleted!")
             }
-            if state.thresholdRatio == 0 && state.direction == MDCSwipeDirection.Right {
+            if state.thresholdRatio == 1 && state.direction == MDCSwipeDirection.Right {
                 println("Photo liked!")
             }
         }
@@ -53,13 +58,12 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
         mainView.imageView.image = loadNextRedditPic()
         //mainView.imageView.image = loadData()
         //view.imageView = temp
-        
+        MBProgressHUD.hideAllHUDsForView(self.view, animated: true)
         self.smallView.addSubview(mainView)
     }
     
     func loadNextRedditPic()->UIImage{
         var url2 = ""
-        println(url2.rangeOfString("imgur"))
         while(url2.rangeOfString("imgur") == nil)
         {
             let url3 = jsonResults[currentIndex]["data"] as! NSDictionary
@@ -107,7 +111,10 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
     
     // Sent before a choice is made. Cancel the choice by returning `false`. Otherwise return `true`.
     func view(view: UIView, shouldBeChosenWithDirection: MDCSwipeDirection) -> Bool{
-        if (shouldBeChosenWithDirection == MDCSwipeDirection.Left) {
+        if (shouldBeChosenWithDirection == MDCSwipeDirection.Left || shouldBeChosenWithDirection == MDCSwipeDirection.Right) {
+            let loadingNotification = MBProgressHUD.showHUDAddedTo(self.view, animated: true)
+            //loadingNotification.mode = MBProgressHUDModeIndeterminate
+            loadingNotification.labelText = "Loading Submissions"
             return true;
         } else {
             // Snap the view back and cancel the choice.

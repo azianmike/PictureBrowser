@@ -56,3 +56,13 @@ Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-dummy.m
 Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-prefix.pch
 Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose-Private.xcconfig
 Pods/Target Support Files/Pods-MDCSwipeToChoose/Pods-MDCSwipeToChoose.xcconfig
+Pods/Headers/Private/MBProgressHUD/MBProgressHUD.h
+Pods/Headers/Public/MBProgressHUD/MBProgressHUD.h
+Pods/MBProgressHUD/LICENSE
+Pods/MBProgressHUD/MBProgressHUD.h
+Pods/MBProgressHUD/MBProgressHUD.m
+Pods/MBProgressHUD/README.mdown
+Pods/Target Support Files/Pods-MBProgressHUD/Pods-MBProgressHUD-dummy.m
+Pods/Target Support Files/Pods-MBProgressHUD/Pods-MBProgressHUD-prefix.pch
+Pods/Target Support Files/Pods-MBProgressHUD/Pods-MBProgressHUD-Private.xcconfig
+Pods/Target Support Files/Pods-MBProgressHUD/Pods-MBProgressHUD.xcconfig
