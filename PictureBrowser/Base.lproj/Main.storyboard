@@ -3,6 +3,7 @@
     <dependencies>
         <plugIn identifier="com.apple.InterfaceBuilder.IBCocoaTouchPlugin" version="7520"/>
         <capability name="Aspect ratio constraints" minToolsVersion="5.1"/>
+        <capability name="Constraints to layout margins" minToolsVersion="6.0"/>
     </dependencies>
     <scenes>
         <!--View Controller-->
@@ -41,16 +42,58 @@
                                     </mask>
                                 </variation>
                             </view>
+                            <button opaque="NO" contentMode="scaleToFill" contentHorizontalAlignment="center" contentVerticalAlignment="center" buttonType="roundedRect" lineBreakMode="middleTruncation" translatesAutoresizingMaskIntoConstraints="NO" id="NbY-B3-VrI">
+                                <rect key="frame" x="-23" y="-15" width="46" height="30"/>
+                                <constraints>
+                                    <constraint firstAttribute="width" constant="119" id="mg1-Ld-gua"/>
+                                </constraints>
+                                <state key="normal" title="Buy this photo">
+                                    <color key="titleShadowColor" white="0.5" alpha="1" colorSpace="calibratedWhite"/>
+                                </state>
+                                <variation key="default">
+                                    <mask key="constraints">
+                                        <exclude reference="mg1-Ld-gua"/>
+                                    </mask>
+                                </variation>
+                                <variation key="heightClass=regular-widthClass=compact">
+                                    <mask key="constraints">
+                                        <include reference="mg1-Ld-gua"/>
+                                    </mask>
+                                </variation>
+                            </button>
                         </subviews>
                         <color key="backgroundColor" white="1" alpha="1" colorSpace="custom" customColorSpace="calibratedWhite"/>
+                        <constraints>
+                            <constraint firstAttribute="trailingMargin" secondItem="NbY-B3-VrI" secondAttribute="trailing" constant="124" id="1Jk-Vw-3gn"/>
+                            <constraint firstItem="2fi-mo-0CV" firstAttribute="top" secondItem="NbY-B3-VrI" secondAttribute="bottom" constant="52" id="Eyf-wo-EOz"/>
+                            <constraint firstItem="NbY-B3-VrI" firstAttribute="top" secondItem="ieb-aj-Mkp" secondAttribute="bottom" constant="180" id="PAW-9U-ky9"/>
+                            <constraint firstItem="NbY-B3-VrI" firstAttribute="top" secondItem="ieb-aj-Mkp" secondAttribute="bottom" constant="180" id="RSP-zu-U79"/>
+                            <constraint firstItem="NbY-B3-VrI" firstAttribute="leading" secondItem="kh9-bI-dsS" secondAttribute="leadingMargin" constant="125" id="lV4-UX-BJI"/>
+                        </constraints>
                         <variation key="default">
                             <mask key="subviews">
                                 <exclude reference="ieb-aj-Mkp"/>
+                                <exclude reference="NbY-B3-VrI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <exclude reference="1Jk-Vw-3gn"/>
+                                <exclude reference="PAW-9U-ky9"/>
+                                <exclude reference="RSP-zu-U79"/>
+                                <exclude reference="lV4-UX-BJI"/>
+                                <exclude reference="Eyf-wo-EOz"/>
                             </mask>
                         </variation>
                         <variation key="heightClass=regular-widthClass=compact">
                             <mask key="subviews">
                                 <include reference="ieb-aj-Mkp"/>
+                                <include reference="NbY-B3-VrI"/>
+                            </mask>
+                            <mask key="constraints">
+                                <include reference="1Jk-Vw-3gn"/>
+                                <include reference="PAW-9U-ky9"/>
+                                <include reference="RSP-zu-U79"/>
+                                <include reference="lV4-UX-BJI"/>
+                                <include reference="Eyf-wo-EOz"/>
                             </mask>
                         </variation>
                     </view>
