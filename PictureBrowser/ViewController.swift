@@ -10,35 +10,86 @@ import UIKit
 
 class ViewController: UIViewController, MDCSwipeToChooseDelegate {
     
-    @IBOutlet var temp:UIImageView!
-
+    //@IBOutlet var temp:UIImageView!
+    var mainView:MDCSwipeToChooseView!
+    @IBOutlet var smallView:UIView!
+    var jsonResults:NSArray!
+    var currentIndex:Int! = 0
+    
     override func viewDidLoad() {
         super.viewDidLoad()
         // Do any additional setup after loading the view, typically from a nib.
         //loadData()
         
-        var options = MDCSwipeToChooseViewOptions()
-        options.delegate = self
-        options.likedText = "Keep"
-        options.likedColor = UIColor.blueColor()
-        options.nopeText = "Delete"
-        options.onPan = { state -> Void in
-            if state.thresholdRatio == 1 && state.direction == MDCSwipeDirection.Left {
-                println("Photo deleted!")
-            }
-        }
+
         
-        var view = MDCSwipeToChooseView(frame: self.view.bounds, options: options)
-        view.imageView.image = loadData()
-        //view.imageView = temp
-        
-        self.view.addSubview(view)
+        loadRedditPics()
+
+        createNewImageView()
+        //loadRedditPics()
     }
 
     override func didReceiveMemoryWarning() {
         super.didReceiveMemoryWarning()
         // Dispose of any resources that can be recreated.
     }
+    
+    func createNewImageView()
+    {
+        var options = MDCSwipeToChooseViewOptions()
+        options.delegate = self
+        options.likedText = "Like"
+        options.likedColor = UIColor.blueColor()
+        options.nopeText = "Dislike"
+        options.onPan = { state -> Void in
+            if state.thresholdRatio == 1 && state.direction == MDCSwipeDirection.Left {
+                println("Photo deleted!")
+            }
+            if state.thresholdRatio == 0 && state.direction == MDCSwipeDirection.Right {
+                println("Photo liked!")
+            }
+        }
+        mainView = MDCSwipeToChooseView(frame: self.view.bounds, options: options)
+        mainView.imageView.image = loadNextRedditPic()
+        //mainView.imageView.image = loadData()
+        //view.imageView = temp
+        
+        self.smallView.addSubview(mainView)
+    }
+    
+    func loadNextRedditPic()->UIImage{
+        var url2 = ""
+        println(url2.rangeOfString("imgur"))
+        while(url2.rangeOfString("imgur") == nil)
+        {
+            let url3 = jsonResults[currentIndex]["data"] as! NSDictionary
+            url2 = url3["url"] as! String
+            if url2.rangeOfString(".jpg") == nil
+            {
+                url2 += ".jpg"
+            }
+            currentIndex!++
+        }
+        
+        let url = NSURL(string: url2)
+        let data = NSData(contentsOfURL: url!)
+        let image = UIImage(data: data!)
+        currentIndex!++
+        return image!
+    }
+    
+    func loadRedditPics(){
+        
+        let temp = [ImageObject]()
+        let url = NSURL(string: "http://www.reddit.com/r/earthporn/hot.json?sort=new")
+        let data = NSData(contentsOfURL: url!)
+
+        var err: NSError?
+        var theJSON = NSJSONSerialization.JSONObjectWithData(data!, options: NSJSONReadingOptions.MutableContainers, error: &err) as! NSMutableDictionary
+        jsonResults = theJSON["data"]!["children"] as! NSArray
+        
+    }
+    
 
     func loadData()->UIImage{
         let imageURL = "http://i.imgur.com/uYZuuJ9.jpg"
@@ -75,6 +126,8 @@ class ViewController: UIViewController, MDCSwipeToChooseDelegate {
         }else{
             println("Photo saved!")
         }
+        println("added new image")
+        createNewImageView()
     }
 
 }
